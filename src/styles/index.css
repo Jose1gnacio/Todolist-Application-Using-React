@@ -1,4 +1,112 @@
+.form {
+    padding-bottom: 21px;
+}
+.form span {
+    font-size: 25px;
+}
+form button {
+    border: none;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-left: 21px;
+}
+.validacion {
+    width: 80px;
+    color: red;
+    margin: 0 auto;
+}
 
+.lista {    
+    margin: 5px;
+    
+    background-color: #000000;
+    border-radius: 11px;
+    color: white;
+}
+.tarea {
+    font-size: 20px;
+    margin: 20px 0 15px 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+}
+
+.title {
+    text-align: left;
+    background-image: url("https://cdn.wallpapersafari.com/99/20/STEn8b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    font-family: fantasy;
+    color: black;
+    font-size: 100px;
+    
+    
+}
+.formulario {
+    text-align: center;
+    margin-top: 21px;
+}
+
+.pendientes {
+    text-align: center;
+    margin-right: 21px;
+    margin-top: 21px;
+}
+.inputTarea {
+    margin-left: 11px;
+    margin-top: 11px;
+    margin-bottom: 21px;
+}
+.borrar {
+    margin-left: 11px;
+    margin-top: 11px;
+    margin-bottom: 21px;
+    margin-right: 11px;
+    border: solid 1px white;
+    text-align: center;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    font-weight: bold;
+}
+.editar {
+    margin-left: 11px;
+    margin-top: 11px;
+    margin-bottom: 21px;
+    border: solid 1px white;
+    text-align: center;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    font-weight: bold;
+}
+
+
+.editar:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.borrar:active {
+    background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
 /* 
 
     You can write your own styles here...
